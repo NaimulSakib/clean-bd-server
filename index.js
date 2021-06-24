@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('Backend server is working.')
+    res.send('Clean-BD Backend server is working.')
 })
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.8mfwy.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;

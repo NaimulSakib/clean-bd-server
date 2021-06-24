@@ -1,7 +1,13 @@
-# Clean BD Server
+Clean BD
+A complete cleaning service website using React JS, MOngoDB, NodeJS, Express, Stripe and Firebase
 
-## Technology:
+Features
+Easy authentication process with Google
+Services are dynamic, admin can add, remove services
+Admin can add another admin
+User can see their own booking list and booking status
+Stripe is used as payment system
 
-Node.js, Express.js, Mongodb
+###Live Site Link:
 
-### Server Link:
+### Server Link: https://obscure-peak-91522.herokuapp.com/
